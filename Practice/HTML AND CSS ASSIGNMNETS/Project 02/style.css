@@ -1,0 +1,54 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+body
+{
+    
+    background: url("./assets/bg.png") no-repeat;
+    height: 560px;
+    width:1500px;
+    /* background-size: contain; */
+    /* overflow: hidden; */
+    background-size: 1280px 569px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: auto;
+
+}
+.list>li
+{
+    /* list-style: none; */
+    display: inline-block;
+    padding:10px
+}
+.navbar>div>img
+{
+    height: 50%;
+    width: 50%;
+    /* justify-content: flex-end; */
+    border: 1px dotted red;
+    /* padding:18px; */
+    /* position: relative;
+    left: 55px; */
+    margin-top: 16px;
+    margin-left:70px
+    
+}
+
+.navbar
+{
+    display: flex;
+    padding-top: 0px;
+    height:70px;
+    width:1280px;
+    border: 1px solid yellow;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    background-color: blue;
+    margin-top: 0px
+}
+.navbar>.grow-list
+{
+  border: 1px solid orange;
+  margin-left:50px;
+  margin-right:500px;
+}

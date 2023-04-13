@@ -1,0 +1,222 @@
+li{
+    display: inline-block;
+    padding:10px;
+    font-family:monospace;
+    color:silver
+}
+li:first-child{
+    
+    color:black;
+}
+@media (min-width:600px)
+{
+    body{
+        margin-top:3%;
+        margin-left:5%;
+        margin-bottom : 400px;
+        flex-wrap: wrap;
+        min-width: 600px;
+        overflow:scroll
+        /* border:1px dotted black */
+    }
+    .navbar-container
+    {
+        display: flex;
+        /* justify-content: space-evenly; */
+        /* border:1px solid red; */
+        justify-content:space-between
+    }
+    .grow-list
+    {
+     /* border: 1px solid yellow; */
+     position:relative;
+     right:28%
+    }
+    .navbar-container>div:first-child>img
+    {
+    height:50%;
+    }
+    .navbar-container>div:first-child
+    {
+        display: flex;
+        align-items: center;
+    }
+    .button-group
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        right:10%
+    }
+    .button-group>.nav-button
+    {
+        height:60%;
+        width:130px;
+        text-align: center;
+        border-radius: 6px;
+        background-color:#383CC1;
+        border-color:#383CC1;
+        color: white;
+        /* border-color: white; */
+    }
+    .banner-container
+    {
+        display: flex;
+        height:410px;
+        /* border: 2px solid orange ; */
+        
+    }
+    .banner-container>div>img{
+        height:410px;
+        width:700px
+    }
+    .banner-container>div:first-child
+    {
+    display:flex;
+    flex-direction: column;
+    width:400px
+    }
+    .heading-text
+    {
+        font-size: 60px;
+        font-family: monospace;
+        word-spacing: -20px;
+        line-height: 59px;
+        position: relative;
+        top:18px;
+        /* border: 2px dotted green; */
+        color:#120E43;
+    }
+    .heading-text span
+    {
+        color:#383CC1;
+    }
+    .description
+    {
+        font-family: monospace;
+        position:relative;
+        bottom:8%;
+        line-height: 18px;
+        font-size: 15px;
+        word-spacing: -2px;
+        padding-top:2px;
+        color:#758283;
+    }
+    .banner-container>div:first-child>button
+    {
+        position: relative;
+        bottom: 28px;
+        height:45px;
+        width:40%;
+        border-radius: 8px;
+        background-color:#383CC1;
+        border-color:#383CC1;
+        color:whitesmoke
+    }
+    
+
+}
+
+body{
+    margin-top:3%;
+    margin-left:5%;
+    margin-bottom : 400px;
+    flex-wrap: wrap;
+    /* border:1px dotted black */
+}
+.navbar-container
+{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* border:1px solid red; */
+    justify-content:space-between
+}
+.grow-list
+{
+ /* border: 1px solid yellow; */
+ position:relative;
+ right:28%
+}
+.navbar-container>div:first-child>img
+{
+height:50%;
+}
+.navbar-container>div:first-child
+{
+    display: flex;
+    align-items: center;
+}
+.button-group
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right:10%
+}
+.button-group>.nav-button
+{
+    height:60%;
+    width:130px;
+    text-align: center;
+    border-radius: 6px;
+    background-color:#383CC1;
+    border-color:#383CC1;
+    color: white;
+    /* border-color: white; */
+}
+.banner-container
+{
+    display: flex;
+    height:410px;
+    /* border: 2px solid orange ; */
+    
+}
+.banner-container>div>img{
+    height:410px;
+    width:700px
+}
+.banner-container>div:first-child
+{
+display:flex;
+flex-direction: column;
+width:400px
+}
+.heading-text
+{
+    font-size: 60px;
+    font-family: monospace;
+    word-spacing: -20px;
+    line-height: 59px;
+    position: relative;
+    top:18px;
+    /* border: 2px dotted green; */
+    color:#120E43;
+}
+.heading-text span
+{
+    color:#383CC1;
+}
+.description
+{
+    font-family: monospace;
+    position:relative;
+    bottom:8%;
+    line-height: 18px;
+    font-size: 15px;
+    word-spacing: -2px;
+    padding-top:2px;
+    color:#758283;
+}
+.banner-container>div:first-child>button
+{
+    position: relative;
+    bottom: 28px;
+    height:45px;
+    width:40%;
+    border-radius: 8px;
+    background-color:#383CC1;
+    border-color:#383CC1;
+    color:whitesmoke
+}
