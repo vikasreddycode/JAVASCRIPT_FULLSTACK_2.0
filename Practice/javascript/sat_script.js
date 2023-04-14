@@ -1,0 +1,1 @@
+// the comments in javascript
