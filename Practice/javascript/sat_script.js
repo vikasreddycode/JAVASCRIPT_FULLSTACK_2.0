@@ -26,3 +26,16 @@
 // console.log(abc===xyz);
 // const mk;
 // mk = 32
+let age = 18;
+if(age==18)
+{
+    console.log(`the sum is ${age} is allowed inside `);
+}
+else if (age>=18)
+{
+
+    console.log("you are allowed else if inside");
+}
+else{
+    console.log("bye");
+}
