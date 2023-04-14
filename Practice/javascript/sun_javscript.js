@@ -1,16 +1,12 @@
-let rating = 5;
-if(rating==5)
+let role = "admin";
+switch(role)
 {
-    console.log("five starts");
-}
-else if(rating == 4)
-{
-    console.log("four stars");
-}
-else if(rating == 3)
-{
-    console.log("3 starrs");
-}
-else{
-    console.log("new stars");
+    case "admin":
+        console.log("you are an admin");
+        break;
+    case "mentor":
+        console.log("you are a mentor");
+        break;
+    default:
+        console.log("new user");
 }
