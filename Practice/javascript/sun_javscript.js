@@ -22,7 +22,8 @@
 // console.log(Math.round(3.5));
 // console.log(Math.round(3.7));
 // // console.log(Math.r)
-console.log(Math.ceil(9.5));
-console.log(Math.floor(9.5));
-console.log(Math.min(1,2,3,4,5,6));
-console.log(Math.max(7,6,5,4,3,2,1));
+// console.log(Math.ceil(9.5));
+// console.log(Math.floor(9.5));
+// console.log(Math.min(1,2,3,4,5,6));
+// console.log(Math.max(7,6,5,4,3,2,1));
+console.log(Math.round()*10);
