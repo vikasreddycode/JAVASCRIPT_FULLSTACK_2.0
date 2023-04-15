@@ -26,5 +26,15 @@
 // console.log(Math.floor(9.5));
 // console.log(Math.min(1,2,3,4,5,6));
 // console.log(Math.max(7,6,5,4,3,2,1));
-console.log(Math.random()*10);
-console.log(Math.pow(3,2));
+// console.log(Math.random()*10);
+// console.log(Math.pow(3,2));
+let i = 6;
+let j = 6;
+do
+{
+console.log(`the new thing is ${i} `);
+}while(i<=5);
+while(j<=5)
+{
+    console.log(`the new value is ${j} `);
+}
