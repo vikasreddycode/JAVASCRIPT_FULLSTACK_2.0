@@ -28,13 +28,19 @@
 // console.log(Math.max(7,6,5,4,3,2,1));
 // console.log(Math.random()*10);
 // console.log(Math.pow(3,2));
-let i = 6;
-let j = 6;
+let i = 0;
+let j = 0;
 do
 {
 console.log(`the new thing is ${i} `);
+i++;
 }while(i<=5);
 while(j<=5)
 {
     console.log(`the new value is ${j} `);
+    j++;
+}
+for(let i=0 ;i<=5;i++)
+{
+    console.log(`the value ${i}*${i}=${i*i}`);
 }
