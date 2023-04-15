@@ -26,4 +26,5 @@
 // console.log(Math.floor(9.5));
 // console.log(Math.min(1,2,3,4,5,6));
 // console.log(Math.max(7,6,5,4,3,2,1));
-console.log(Math.round()*10);
+console.log(Math.random()*10);
+console.log(Math.pow(3,2));
