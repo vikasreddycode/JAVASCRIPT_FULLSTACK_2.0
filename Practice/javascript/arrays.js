@@ -22,4 +22,10 @@
 let arr31 = [1,2,3,4,5,6];
 let arr32 = [7,8,9];
 let arr43 = [10,11,12,13];
+console.log(arr31.concat(arr32));
 console.log(arr31.concat(arr32,arr43));
+let arr4 = [1,2,3,4,5,6,7,8];
+arr4.fill('Vikas',2,4);
+console.log(arr4);
+arr4.fill("new","old",2,4);
+console.log(arr4);
