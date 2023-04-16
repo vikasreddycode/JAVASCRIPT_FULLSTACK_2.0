@@ -30,4 +30,6 @@
 // arr4.fill("new","old",2,4);
 // console.log(arr4);
 let arr3 = [1,2,3,4,5,6,7];
-console.log(arr3.includes(5,4));
+// console.log(arr3.includes(5,4));
+let arr4 = [1,23,4,423,44,223,"vicky",444,44];
+console.log(arr4.indexOf("vicky"));
