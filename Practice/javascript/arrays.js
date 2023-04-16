@@ -8,14 +8,18 @@
 // names[3]="vikcy";
 // // console.log(names);
 
-let arr =  new Array("vikcu","mk",'kk','hello');
-console.log(arr);
-arr.push("hsasaksj");
-arr.push("helllomawa");
-console.log(arr);
-console.log(arr.slice(2,5));
-let fruit  = ['Apple','Bad A','CAD A','VAD A','DAS A']
-fruit.splice(2,1,'MK','RK');
-console.log(fruit);
-fruit.splice(2,2,"mk","rk");
-console.log(fruit);
+// let arr =  new Array("vikcu","mk",'kk','hello');
+// console.log(arr);
+// arr.push("hsasaksj");
+// arr.push("helllomawa");
+// console.log(arr);
+// console.log(arr.slice(2,5));
+// let fruit  = ['Apple','Bad A','CAD A','VAD A','DAS A']
+// fruit.splice(2,1,'MK','RK');
+// console.log(fruit);
+// fruit.splice(2,2,"mk","rk");
+// console.log(fruit);
+let arr31 = [1,2,3,4,5,6];
+let arr32 = [7,8,9];
+let arr43 = [10,11,12,13];
+console.log(arr31.concat(arr32,arr43));
