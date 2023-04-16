@@ -11,3 +11,5 @@ let names = ["vikcy","uncle","anan","hdd","shsjks","sghssh","gsysgs"];
 console.log(names.sort());
 console.log(names.unshift("vicky 1","vicky 2"));
 console.log(names);
+let name = "vicky is a namial";
+console.log(name.split(" "))
