@@ -31,5 +31,12 @@
 // console.log(arr4);
 let arr3 = [1,2,3,4,5,6,7];
 // console.log(arr3.includes(5,4));
-let arr4 = [1,23,4,423,44,223,"vicky",444,44];
-console.log(arr4.indexOf("vicky"));
+let arr4 = [1,23,4,423,44,223,"vicky",444,44,"vicky"];
+// console.log(arr4.indexOf("vicky"));
+let n1 = 3;
+// console.log(Array.isArray(arr4));
+// console.log(Array.isArray(n1));
+// console.log(arr4.join("||"))
+let arr5 = [1];
+console.log(arr5.join("new"));
+console.log(arr4.lastIndexOf("vicky"));
