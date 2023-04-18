@@ -28,8 +28,12 @@ for (let x in vicky)
 {
     console.log(x);
 }
-for (let x in vicky)
-{
-    console.log(vicky[x]);
-    console.log(x);
-}
+// for (let x in vicky)
+// {
+//     console.log(vicky[x]);
+//     console.log(x);
+// }
+// for (let x of vicky)
+// {
+//     console.log(x);
+// }
