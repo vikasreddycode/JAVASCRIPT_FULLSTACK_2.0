@@ -5,3 +5,4 @@ const obj3 = {
 const obj4 = Object.create(obj3);
 console.log(obj3);
 console.log(obj4);
+console.log(obj4.fly);
