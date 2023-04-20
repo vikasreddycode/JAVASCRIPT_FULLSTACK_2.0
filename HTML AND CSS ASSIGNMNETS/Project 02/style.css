@@ -19,7 +19,8 @@ body
 {
     /* list-style: none; */
     display: inline-block;
-    padding:10px
+    padding:10px 30px;
+    color:white;
 }
 .navbar>div>img
 {
@@ -40,18 +41,19 @@ body
     display: flex;
     padding-top: 0px;
     height:70px;
-    width:1280px;
+    width:1500px;
     border: 1px solid yellow;
     justify-content: flex-start;
     box-sizing: border-box;
-    background-color: blue;
+    background-color: black;
     margin-top: 0px
 }
 .navbar>.grow-list
 {
   border: 1px solid orange;
-  margin-left:50px;
-  margin-right:500px;
+  margin-left:-28px;
+  margin-right:450px;
+  /* padding: 10px 0px; */
 }
 .hero
 {
@@ -91,16 +93,55 @@ body
     position: relative;
     bottom: 29px;
     word-spacing: -6px;
+    text-indent: 18px;
+    padding:15px 0px
 }
 .button-large
 {
-    padding: 6px 15px ;
+    padding: 6px 8px ;
     /* width:200px; */
-    border-radius: 6px;
+    border-radius: 8px;
     font-size: 20px;
-    background-color:#B9345A;
+    background-color:#AA336A;
     color: white;
-    word-spacing: -5px;
+    word-spacing: -3px;
     font-family: monospace;
+    margin-top: -25px;
+    border:none;
     
+}
+.list>li:first-child
+{
+
+}
+.navbar>div:last-child
+{
+    /* margin-right: 100px; */
+    
+    /* border: 1px solid white; */
+    position: absolute;
+    right: 90px;
+    top: 20px;
+    /* margin: auto; */
+    margin: auto;
+}
+.navbar>div:last-child>.button-small
+{
+    /* margin-right: 100px; */
+    padding: 7px 18px;
+    border-radius: 6px;
+    background-color:#AA336A;
+    color: white;
+    font-family: monospace;
+    word-spacing: -5px;
+    border:none;
+}
+.navbar>.line
+{
+    /* width: 0px; */
+          /* height: 1px; */
+          margin-top: 10px;
+          margin-bottom: 10px;
+          border:1px solid white;
+          margin-left: 12px;
 }
