@@ -1,5 +1,6 @@
 /* You can not modify anything in the HTML */
 /* You can only modify the CSS file */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 body
 {
     
@@ -27,7 +28,7 @@ body
     height: 50%;
     width: 50%;
     /* justify-content: flex-end; */
-    border: 1px dotted red;
+    /* border: 1px dotted red; */
     /* padding:18px; */
     /* position: relative;
     left: 55px; */
@@ -42,7 +43,7 @@ body
     padding-top: 0px;
     height:70px;
     width:1500px;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     justify-content: flex-start;
     box-sizing: border-box;
     background-color: black;
@@ -50,7 +51,7 @@ body
 }
 .navbar>.grow-list
 {
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   margin-left:-28px;
   margin-right:450px;
   /* padding: 10px 0px; */
@@ -61,7 +62,7 @@ body
     flex-direction: column;
     /* justify-content: space-around; */
     align-items:center;
-    border:1px dotted yellow;
+    /* border:1px dotted yellow; */
     margin-top: -70px;
     margin-right: 350px;
     
@@ -72,7 +73,7 @@ body
     font-size: 65px;
     font-family: monospace;
     padding-left: 300px;
-    border: 1px dotted red;
+    /* border: 1px dotted red; */
     position: relative;
     bottom: -50px;
     margin-right: 190px;
@@ -98,11 +99,11 @@ body
 }
 .button-large
 {
-    padding: 6px 8px ;
+    padding: 10px 12px ;
     /* width:200px; */
     border-radius: 8px;
     font-size: 20px;
-    background-color:#AA336A;
+    background-color:#ff1493;
     color: white;
     word-spacing: -3px;
     font-family: monospace;
@@ -110,8 +111,17 @@ body
     border:none;
     
 }
-.list>li:first-child
-{
+.list>li:first-child::after{
+ font-family:'Material Icons';
+ content: 'expand_more';
+ /* height: 350px; */
+ /* border: 1px solid red; */
+ /* width:20px; */
+ position: relative;
+ top:5px;
+ padding-left: 3px;
+ /* margin-top: 20px; */
+
 
 }
 .navbar>div:last-child
@@ -128,9 +138,9 @@ body
 .navbar>div:last-child>.button-small
 {
     /* margin-right: 100px; */
-    padding: 7px 18px;
+    padding: 10px 25px;
     border-radius: 6px;
-    background-color:#AA336A;
+    background-color:#ff1493;
     color: white;
     font-family: monospace;
     word-spacing: -5px;
