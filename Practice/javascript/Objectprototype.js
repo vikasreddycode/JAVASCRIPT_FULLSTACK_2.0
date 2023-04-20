@@ -13,3 +13,4 @@ Object.prototype.vikas = function()
 {
     console.log("this is adding new property to the Object Which is a super parent");
 };
+
