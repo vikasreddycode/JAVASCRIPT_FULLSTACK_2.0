@@ -1,9 +1,16 @@
-const obj3 = {
-    fly:true,
-    coordinate:Math.random()*10+2
+const obj5 =  {
+    comics:'chuddyman',
+    name:' ',
+    newfunction : function()
+    {
+        this.name+="Vicky";
+        console.log(this);
+    },
+    newfunctionval : () =>
+    {
+        this.name+="Vicky";
+        console.log(this);
+    }
 };
-const obj4 = Object.create(obj3);
-console.log(obj3);
-console.log(obj4);
-console.log(obj4.fly);
-console.log(Object.getPrototypeOf(obj4));
+console.log(obj5.newfunction());
+console.log(obj5.newfunctionval());
