@@ -1,3 +1,4 @@
 let name  = "This is a string";
-let splitarray = name.split(" ");
-console.log(splitarray)
+let splitarray = Array.from(name.split(" "));
+let newarray = name.split(" ");
+console.log(`${typeof splitarray === typeof newarray}`)
