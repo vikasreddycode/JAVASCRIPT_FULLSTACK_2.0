@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is javascript</h1>
+    <ul>
+
+    </ul>
+    <button onclick="newfunc()" id ="new">submit</button>
+    <p id="fsjs2"></p>
+    <script>
+        const list = `
+        <li>vikcy</li>
+        <li>vankay</li>
+        <li>bendakay</li>
+        `;
+        const ul = document.querySelector("ul");
+        ul.innerHTML=list;
+        let text = document.createElement("h1");
+        text.className = "new";
+        text.textContent="hello mawa";
+        text.style.color="red";
+        text.style.fontSize="25px";
+        document.body.appendChild(text);
+        for(let i=0;i<5;i++)
+        {
+            let mk = document.createElement("h1");
+            mk.style.color = "blue";
+            mk.style.fontSize = "30px";
+            console.log(i);
+            mk.textContent = i;
+            document.body.appendChild(mk);
+        }
+        function newfunc()
+         {
+            let x = prompt("solve this 50-30");
+            if(x==20)
+            {
+                document.getElementById("fsjs2").innerText="well done";
+                document.getElementById("new").style.backgroundColor="green";
+              }
+              else{
+                document.getElementById("fsjs2").innerText="Failed and needed";
+                document.getElementById("new").style.backgroundColor="red";
+              }
+
+         }
+    </script>
+</body>
+</html>
