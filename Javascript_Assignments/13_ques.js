@@ -1,5 +1,5 @@
 let j = new Date(); 
-let month = j.getMonth().toString();
+let month = (j.getMonth()+1).toString();
 let day = j.getDate().toString();
 let hours = j.getHours().toString();
 let minutes = j.getMinutes().toString();
