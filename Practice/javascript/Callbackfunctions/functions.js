@@ -14,5 +14,8 @@ console.log(m1);
 }
 catch (error)
 {
-    console.log(error1.name);
+    console.log(error.name);
+}
+finally{
+    console.log("i will always run");
 }
