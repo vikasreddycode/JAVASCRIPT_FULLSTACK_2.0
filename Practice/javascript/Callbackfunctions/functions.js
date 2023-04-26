@@ -12,9 +12,9 @@ try
 let m = 5/0;
 console.log(m1);
 }
-catch (error)
+catch (error1)
 {
-    console.log(error.name);
+    console.log(error1.name);
 }
 finally{
     console.log("i will always run");
