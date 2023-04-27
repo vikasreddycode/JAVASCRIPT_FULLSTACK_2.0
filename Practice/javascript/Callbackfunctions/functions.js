@@ -53,3 +53,29 @@
 // userOne();
 // userTwo();
 // userThree();
+const one = () =>
+{
+    return "I am One";
+} 
+const two = () =>
+{
+    return new Promise((resolve,reject) => {
+        setTimeout(() => {
+            resolve("Credential Correct");
+        },3000);
+    });
+};
+const three = () =>
+{
+    return "I am Three";
+}
+const h1 = async () =>
+{
+    let k =one();
+    console.log(k);
+    let b = await two();
+    console.log(b);
+    let m = three();
+    console.log(m);
+}
+h1();
