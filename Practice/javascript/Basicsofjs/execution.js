@@ -22,3 +22,22 @@ val['hello'] = "old";
 console.log(val);
 let  b = arr.reduce((acc,curr)=>acc+curr,"");
 console.log(b);
+const promise = new Promise((resolve, reject) => {
+    setTimeout(()=>{
+   const ti = ["vkcu","sdsd"];
+   if(ti.length>0)
+   {
+    resolve("the thing");
+   }
+   else{
+    reject("dobbindi");
+   } 
+    },2000)
+});
+promise
+     .then((result) => 
+{console.log(result)
+})
+.catch((result) =>{
+    console.log(result);
+});
