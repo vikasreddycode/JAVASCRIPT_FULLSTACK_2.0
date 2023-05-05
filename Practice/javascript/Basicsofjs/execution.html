@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // the execution in javascript starts with execution context
+        // in the first phase or memory phase variables and functions are read
+        // in the second phase execution happens in code block
+        // for each function invoked or called a execution context(memory block and code block are created and destroyed as soon as its is over)
+        // the call stack manages everything   
+        console.log(n);
+        var  b =sqaure(3);
+        console.log(b);
+        var n=2;
+          function sqaure(num)
+          {
+            var ans = num*num;
+            return ans;
+          }
+          var n1 = sqaure(3);
+          var n2 = sqaure(4);
+    </script>
+</body>
+</html>

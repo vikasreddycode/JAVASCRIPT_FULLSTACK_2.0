@@ -184,6 +184,65 @@
         <!-- end wrapper -->
     </div>
     <!-- end container -->
+    <script>
+        let b2 = document.querySelectorAll(".clash-card");
+        // console.log(b2.length);
+        for(let r=0;r<b2.length;r++)
+        {
+            let j = b2[r].querySelector(".clash-card__unit-stats");
+            
+                if(r==0)
+                {
+        j.style.backgroundColor = "#F4BE2C";
+                     
+                }
+                if(r==2)
+                {
+        j.style.backgroundColor = "#E07C24";
+                     
+                }
+                
+                if(r==1)
+                {
+                    console.log(r);
+                    b2[r].querySelector(".clash-card__level+div").textContent="The Archer";
+        j.style.backgroundColor = "#E03B8B";
+                    let m = j.querySelector(".one-third");
+                    console.log(m);
+                    m.style.borderColor=" black";
+                }
+                if(r==3)
+                {
+                    console.log(r);
+                    b2[r].querySelector(".clash-card__level+div").textContent="The Goblin";
+                    j.style.backgroundColor =  "#6EC72D";
+                }
+             if(r==4)
+             {
+                j.style.backgroundColor =  "#1B98F5";
+             }
+    // j.style.backgroundColor = "Orange";
+          
+
+            
+        j.style.color="white";
+        // console.log(b);
+        let b1 = j.querySelectorAll(".one-third");
+        for(let i=0;i<b1.length;i++)
+        {
+            b1[i].style.color = "white";
+        }
+        }
+        
+        let b = document.querySelector(".slide-container");
+        b.style.display = "grid";
+        b.style.gridTemplateColumns = "repeat(5,1fr)";
+        console.log(b.style);
+        
+        
+        
+        
+    </script>
 </body>
 
 </html>

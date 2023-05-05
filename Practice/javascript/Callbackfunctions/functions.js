@@ -1,81 +1,30 @@
-// // // // function sum2(...args)
-// // // // {
-// // // //     console.log(args);
-// // // //     // let sum = 0;
-// // // //     let sum =args.reduce((acc,curr) => acc + curr,0);
-// // // //     return sum;
-// // // // }
-// // // // let b = sum2(1,2,3,4,5,6);
-// // // // console.log(b);
-// // // try
-// // // {
-// // // let m = 5/0;
-// // // console.log(m1);
-// // // }
-// // // catch (error1)
-// // // {
-// // //     console.log(error1.name);
-// // // }
-// // // finally{
-// // //     console.log("i will always run");
-// // // }
-// // function func(width)
-// // {
-    
-// //     if(isNaN(width))
-// //     {
-// //         throw new Error("enter a number");
-// //     }
-// // }
-// // try
-// // {
-// //     func("vicky");
-// // }catch(e)
-// // {
-// //     console.log(e);
-// // }
-// //event loop
-// const userOne = ( ) =>
-// {
-//     console.log("this is userone");
+// // l
+
+
+// let  blj = {
+//     welcome_message:"hello to this course",
+//     courselist : [],
+//     const6 :   (newvalue) =>   {  
+        
+//         this.courselist.push(newvalue)
+//     }
 // };
-// const userTwo = () =>
-// {
-//     setTimeout(() => {
-//   console.log("hello i am inside");
-//     },3000)
-//     console.log("this is usertwo");
-// }
-// const userThree = () =>
-// {
-//     console.log("this is userthree");
-// }
-// userOne();
-// userTwo();
-// userThree();
-const one = () =>
-{
-    return "I am One";
-} 
-const two = () =>
-{
-    return new Promise((resolve,reject) => {
-        setTimeout(() => {
-            resolve("Credential Correct");
-        },3000);
-    });
-};
-const three = () =>
-{
-    return "I am Three";
-}
-const h1 = async () =>
-{
-    let k =one();
-    console.log(k);
-    let b = await two();
-    console.log(b);
-    let m = three();
-    console.log(m);
-}
-h1();
+// blj.const6("jj");
+// console.log(blj.courselist);
+ sum();
+ sub();
+ console.log(a);
+//  var b = 10;
+// console.log("here execution");
+ function sum()
+ {
+    var a = 10;
+    var b = 10;
+    console.log(`the addition is ${a+b}`);
+ }
+ function sub()
+ {
+    var a = 10;
+    var b = 10;
+    console.log(`the addition is ${a-b}`);
+ }
