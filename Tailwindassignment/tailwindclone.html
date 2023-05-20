@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <style>
+    .lb_button::before{
+       content:" ";
+       height: 2px;
+       position: relative;
+       display: inline-block;
+       width: 2px;
+       border-top: 4px solid white;
+       border-bottom: 4px solid transparent;
+       border-right: 4px solid transparent;
+       border-left: 4px solid transparent;
+       transform:rotate(90deg);
+    }
+    .new_van::before
+    {
+        content: " ";
+        height: 4px;
+       position: relative;
+       display: inline-block;
+       width: 4px;
+       border-top: 8px solid black;
+       border-bottom: 8px solid transparent;
+       border-right: 8px solid transparent;
+       border-left: 8px solid transparent;
+       transform:rotate(180deg);
+       left:25.5vw;
+       top:1.8vh;
+       border-radius: px;
+    }
+
+  </style>    
+</head>
+<body class="flex flex-wrap border-box bg-zinc-800">
+    <div class=" bg-indigo-800  h-10v fixed w-full block ">
+    <p class="font-small  text-white text-center ">FOR EDUCATIONAL PURPOSES ONLY </p>
+    </div>
+    <div class=" w-full my-6   ">
+    <nav class=" bg-zinc-800 flex w-full border-box  fixed flex-wrap  ">
+            <ul class="inline flex flex-wrap py-[2vh] px-5 pl-[4vw] list-none ">
+             <li  class="w-[2vw]   h-[5vh]"><img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" alt="" srcset=""></li>
+            <li class="text-white  pl-[1vw]  text-xl pr-[2vw]">Visual Studio Code</li>
+               <li class="pr-[1.5vw] text-slate-300 text-lg ">Docs</li>
+                <li class="pr-[1.5vw] text-slate-300 text-lg">Updates</li>
+                <li class="pr-[1.5vw]  text-slate-300 text-lg">Blog</li>
+                <li class="pr-[1.5vw] text-slate-300 text-lg">API</li>
+                <li class="pr-[1.5vw] text-slate-300 text-lg">Extensions</li>
+                <li class="pr-[1.5vw] text-slate-300 text-lg">FAQ</li>
+                <li class="pr-[1.5vw] text-slate-300 text-lg">Learn</li>
+                
+            </ul>
+            <div class="bg-slate-600 w-[16vw]  ml-[9vw] flex flex-column text-center">
+                <span class="material-icons r text-white rotate-90 ml-[0.5vw] ">search</span>
+
+                <div class="w-full ml-[2vw] text-cente mt-[2.5vh]"><input type="text" placeholder="Search Docs"name="" id=""class="bg-slate-600 border-slate-600 outline-slate-600 ring-slate-600 "></div>  
+        </div>       
+            
+        <div class="py-[2vh] bg-sky-700 w-[12vw] ml-[0px] flex text-center">
+            
+                <i class="material-icons pl-[2vw] text-white">arrow_downward</i>
+                <span class="pl-[1vh] text-lg text-white ml-[0.1vw]"><button>Download</button></span>
+            
+        </div>       
+    </nav>
+    <div class="bg-zinc-900  mt-10 pt-[4vh] pb-[2vh] text-center ">
+        <p class="text-white"><a href="https://code.visualstudio.com/updates/v1_78" class = " text-blue-500 underline">Version1.78</a> is now available! Read about the new features and fixes from April.</p>
+    </div>
+    <div>
+
+    </div>
+
+    <div class="flex justify-between  ">
+        <div class="  mr-[6.5vw] mt-[10vh] ">
+            <p class="pl-[5vw] mr-[0px] text-white font-light text-6xl">Code editing.</p>
+            <p class="pl-[7vw] pt-[0.5vh] text-6xl text-white">Redefined.</p>
+            <p class="pt-[2vh] text-slate-400  text-lg pl-[4vw]">Free. Built on open source. Runs everywhere.</p>
+            
+            <div class="flex">
+                <button class="ml-[6vw] mt-[3vh] flex bg-blue-700">
+                    <div class="px-[3vw]  text-white py-[0.5vw]">
+                        <p class="text-lg">Download for Windows</p>
+                        <p class="text-sm">Stable build</p>
+                    </div>
+                </button>
+                <button class="bg-blue-700 ml-[0.2vw] mt-[3vh] ">
+                    <div class="px-[0.5vw]  text-white py-[0.5vw]">
+                        <p class="material-icons">arrow_downward</p>
+                    </div>
+                </button>
+            </div>
+            <div class="h-[5vh] w-[12vw] new_van">
+
+            </div>
+            <div >
+                <p class="ml-[6.5vw]  new_area text-center inline-block px-[1.5vw] py-[0.7vw] rounded-md bg-zinc-900  text-white  text-sm "> <span class="text-sky-400">Web, Insiders edition </span>, or<span class="text-sky-400" > other platforms</span></p>
+            </div>
+            <div class="ml-[8vw] pt-[5vh]">
+                <p class="text-slate-400">By using VS Code, you agree to its</p>
+                <p class= " text-sky-400 pt-[1vh] ml-[2vw]">license and privacy statement.</p>
+            </div>
+            
+            
+    
+        </div>
+        <div class="  mr-[6.5vw] mt-[10vh] ">
+            <img src="./Assets/Screenshot 2023-05-11 164155.png" alt="" srcset="" class="w-[54vw] h-[100vh]">
+        </div>
+    </div>
+</div>
+<div class=" bg-white w-full  flex justify-around border-red-600 border-solid border">
+    <div class="h-[full]  py-[3vh] ">
+        <p class="material-icons text-7xl   relative  left-[3.5vw] ">lightbulb</p>
+        <p class="text-2xl ml-[3vw]">Intellisnese</p>
+    </div>  
+<div class="h-[full]  py-[3vh] ">
+    <p class="material-icons text-7xl   relative  left-[3.5vw] ">play_arrow</p>
+    <p class="material-icons text-7xl   ">adb</p>
+    <p class="text-2xl ml-[3vw]">Run and Debug</p>
+
+</div>  
+<div class="h-[full]  py-[1.5vh] ">
+    <p class="h-[5vh] ml-[2vw]"><img src="./Assets/git.png" class="h-[14vh]" alt="" srcset=""></p>
+    <p class="text-2xl mt-[10vh]">Built-in Git</p>
+</div>  
+<div class="h-[full]  py-[3vh]">
+    <p class="material-icons text-7xl   relative  left-[3.5vw] ">play_arrow</p>
+    <p class="text-2xl ml-[3vw]">Extensions</p>
+
+</div>  
+</div>
+<div class="h-[60vh] w-full flex bg-slate-100">
+    <div class="mt-[10vh] ml-[6vw]   flex">
+        <div class="h-[12vh] w-[12vh] rounded-full overflow-hidden "><img class=" w-full h-full object-cover"src="./Assets/Screenshot 2023-05-11 164155.png" alt="" srcset=""></div>
+        <div class="h-[15vh] w-[21vw] ml-[1vw] mt-[1vh]">
+            <p><span class="font-bold text-xs">Una Kravets</span> @Una</p>
+            <p class="font-sans text-lg font-light">VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️</p>
+        </div>
+    </div>
+    <div class="mt-[10vh] ml-[5vw]   flex">
+        <div class="h-[12vh] w-[12vh] rounded-full overflow-hidden "><img class=" w-full h-full object-cover"src="./Assets/Screenshot 2023-05-11 164155.png" alt="" srcset=""></div>
+        <div class="h-[15vh] w-[21vw] ml-[1vw] mt-[1vh]">
+            <p><span class="font-bold text-xs">Jonathan Dunlap </span> @jadbox</p>
+            <p class="font-sans text-lg font-light">VS Code will have deep remote development. You can connect to a container running a different OS and use any VS Code plugins, linting, debugging for that environment. 🔥🔥🔥</p>
+        </div>
+    </div>
+    <div class="mt-[10vh] ml-[5vw]   flex">
+        <div class="h-[12vh] w-[12vh] rounded-full overflow-hidden "><img class=" w-full h-full object-cover"src="./Assets/Screenshot 2023-05-11 164155.png" alt="" srcset=""></div>
+        <div class="h-[15vh] w-[20vw] ml-[1vw] mt-[1vh]">
+            <p><span class="font-bold text-xs">Jonathan Dunlap </span> @jadbox</p>
+            <p class="font-sans text-lg font-light">VS Code is my most used and favorite editor. I love being able to customize the editor - changing the layout, the icons, fonts and color scheme is so easy!</p>
+        </div>
+    </div>
+</div>
+<div class="h-[60vh] w-full flex bg-white">
+    <div class="mt-[15vh] ml-[6vw] flex ">
+        <img src="https://code.visualstudio.com/assets/images/home-intellisense.svg" alt="" srcset="">
+        <div class="my-[-3vh] ml-[15vw]">
+            <p class="text-4xl font-light">Meet IntelliSense.</p>
+            <p class="mt-[5vh] mr-[5vw] text-lg leading-loose tracking-wider">Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules.</p>
+        </div>
+    </div>   
+</div>
+<div class="h-[60vh] w-full flex bg-slate-100">
+    <div class="mt-[15vh] ml-[-5vw] flex ">
+        <div class="mt-[-4vh] ml-[10vw]">
+            <p class="text-3xl font-light">Print statement debugging is a thing of the past.</p>
+            <p class="mt-[10vh] mr-[10vw] text-lg leading-loose tracking-wider">Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console.</p>
+        </div>
+        <img class="mr-[5vw]"src="https://code.visualstudio.com/assets/images/home-debug.svg" alt="" srcset="">
+    
+</div>
+</div>
+ 
+<div class="h-[60vh] w-full flex bg-white">
+    <div class="mt-[15vh] ml-[6vw] flex ">
+        <img src="https://code.visualstudio.com/assets/images/home-git.svg" alt="" srcset="">
+        <div class="mt-[-4vh] ml-[10vw]">
+            <p class="text-4xl font-light">Git commands built-in.</p>
+            <p class="mt-[10vh] mr-[5vw] text-lg leading-loose tracking-wider">Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service.</p>
+        </div>
+</div>
+</div>
+<div class="h-[60vh] w-full flex bg-slate-100">
+    <div class="mt-[15vh] ml-[-5vw] flex ">
+        <div class="mt-[4vh] ml-[10vw]">
+            <p class="text-3xl font-light">Extensible and customizable.</p>
+            <p class="mt-[5vh] mr-[10vw] text-lg leading-loose tracking-wider">Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor.<span class="text-blue-600"> <a href="https://code.visualstudio.com/docs/editor/extension-marketplace">Learn more about extensions.</a> </span> </p> </div>
+        <img class="mr-[5vw] mb-[8vh]"src="https://code.visualstudio.com/assets/images/Hundreds-of-Extensions.png" alt="" srcset="">
+    
+</div>
+</div>
+<div class="h-[60vh] w-full flex bg-white">
+    <div class="mt-[15vh] ml-[6vw] flex ">
+        <img src="https://code.visualstudio.com/assets/images/home-azure.svg" alt="" srcset="">
+        <div class="mt-[-2vh] ml-[10vw]">
+            <p class="text-4xl font-light">Deploy with confidence and ease</p>
+            <p class="mt-[8vh] mr-[5vw] text-lg leading-loose tracking-wider">With <span class="text-blue-600" >Microsoft Azure</span> you can deploy and host your React, Angular, Vue, Node, Python (and more!) sites, store and query relational and document based data, and scale with serverless computing, all with ease, all from within VS Code.</p>
+        </div>
+</div>
+</div>
+<div class="h-[80vh] w-full bg-slate-100 ">
+    <div class="mt-[10vh] ml-[40vw]  block ">
+        <p class="text-3xl font-normal">VS Code for</p>
+    </div>
+    <div>
+        <ul class="list-none mt-[7vh] flex ml-[15vw]  ">
+            <li class="inline pr-[3vw] ">
+                <ul class="flex">
+                <li class="inline "><img class="text-lg w-[2.5vw] " src="https://code.visualstudio.com/assets/icons/file-icons/javascript.svg" alt="" srcset=""> </li>
+                <li class="inline text-lg">JavaScript</li>
+                </ul>
+                <ul class="flex mt-[4vh]">
+                    <li class="inline "><img class="text-lg w-[2.5vw] " src="https://code.visualstudio.com/assets/icons/file-icons/json.svg" alt="" srcset=""> </li>
+                    <li class="inline text-lg">JSON</li>
+                    </ul>
+            
+            </li>
+            <li class="inline pr-[3vw]" >
+                <ul class="flex">
+                    <li class="inline "><img class="text-lg w-[2.5vw] " src="https://code.visualstudio.com/assets/icons/file-icons/python.svg" alt="" srcset=""> </li>
+                    <li class="inline text-lg">Python</li>
+                    </ul>
+                    <ul class="flex mt-[4vh]">
+                        <li class="inline "><img class="text-lg w-[2.5vw] " src="https://code.visualstudio.com/assets/icons/file-icons/PowerShell.svg" alt="" srcset=""> </li>
+                        <li class="inline text-lg">PowerShell</li>
+                        </ul>
+            </li>
+            <li class="inline pr-[3vw]" >
+                <ul class="flex">
+                    <li class="inline "><img class="text-lg w-[2.5vw] " src="https://code.visualstudio.com/assets/icons/file-icons/java.svg" alt="" srcset=""> </li>
+                    <li class="inline text-lg">Java</li>
+                    </ul>
+                    <ul class="flex mt-[4vh]">
+                        <li class="inline "><img class="text-lg w-[2.5vw] " src="https://code.visualstudio.com/assets/icons/file-icons/html.svg" alt="" srcset=""> </li>
+                        <li class="inline text-lg">HTML/CSS</li>
+                        </ul>
+            </li>
+            <li class="inline pr-[3vw]" >
+                
+                <ul class="flex">
+                    <li class="inline "><img class="text-lg w-[2.5vw] " src="https://code.visualstudio.com/assets/icons/file-icons/Markdown.svg" alt="" srcset=""> </li>
+                    <li class="inline text-lg">Markdown</li>
+                    </ul>
+                    <ul class="flex mt-[4vh]">
+                        <li class="inline "><img class="text-lg w-[2.5vw] " src="https://code.visualstudio.com/assets/icons/file-icons/csharp.svg" alt="" srcset=""> </li>
+                        <li class="inline text-lg">C#</li>
+                        </ul>
+                    
+            </li>
+            <li class="inline pr-[3vw]" >
+                <ul class="flex">
+                    <li class="inline "><img class="text-lg w-[2.5vw] " src="https://code.visualstudio.com/assets/icons/file-icons/TypeScript.svg" alt="" srcset=""> </li>
+                    <li class="inline text-lg">TypeScript</li>
+                    </ul>
+                    <ul class="flex mt-[4vh]">
+                        <li class="inline "><img class="text-lg w-[2.5vw] " src="https://code.visualstudio.com/assets/icons/file-icons/php.svg" alt="" srcset=""> </li>
+                        <li class="inline text-lg">PHP</li>
+                        </ul>
+            </li>
+            <li class="inline " >
+                <ul class="flex">
+                    <li class="inline "><img class="text-lg w-[2.5vw] " src="https://code.visualstudio.com/assets/icons/file-icons/cpp.svg" alt="" srcset=""> </li>
+                    <li class="inline text-lg">C/C++</li>
+                    </ul>
+                    <ul class="flex mt-[4vh]">
+                        <li class="inline "><img class="text-lg w-[2.5vw] " src="https://code.visualstudio.com/assets/icons/file-icons/yaml.svg" alt="" srcset=""> </li>
+                        <li class="inline text-lg">YAML</li>
+                        </ul>
+                
+            </li>
+        </ul>
+    </div>
+    <div class="text-center mt-[4vh]">
+        <p class="text-lg text-blue-600">and many more languages on the Marketplace...</p>
+    </div>
+    <div class=" block text-center mt-[5vh]">
+        <button class="py-[3vh] px-[3vw] bg-sky-700 text-white font-bold text-lg">Get Started Now</button>
+    </div>
+</div>
+<div class="h-[80vh] w-full bg-white  flex">
+    <div>
+        <div class="ml-[20vw] mt-[10vh]">
+            <p ><img class="h-[18vh] w-[9vw]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKybPRYRDRm6zULLJafBWQYeJORdzGqDLbWg&usqp=CAU" alt="" srcset=""></p>
+            </div>
+            <div class="ml-[15vw] mt-[3vh]">
+                <button class="text-center bg-sky-700 py-[2vh] text-white px-[4.8vw] ">
+                    <p class="text-xl"><span class="material-icons ">arrow_downward</span><span class="ml-[1vw]">Windows</span></p>
+                    <p class="text-xs text-center mt-[1vh] font-semibold ">Windows 8,10,11</p>
+                </button>
+            </div>
+            <div>
+                <ul class="ml-[14vw] mt-[4vh] flex">
+                       <li>
+                            <ul>
+                                <li class="pl-[1vw] font-semibold"> User Installer</li>
+                                <li class="font-semibold">System Installer</li>
+                                <li class="pl-[3vw] font-semibold">.zip</li>
+                                <li class="pl-[3vw] mt-[3vh] font-semibold">CLI</li>
+                            </ul>
+                      </li>
+                      <li>
+                                   <ul class="ml-[1vw]">
+                                    <li>
+                                        <ul class="flex">
+                                               <li ><button class="bg-sky-700 text-xs px-[0.3vw] rounded-sm text-white" >x64</button ></li>
+                                               <li class="pl-[0.5vw]"><button class=" text-white rounded-sm bg-sky-700 text-xs px-[0.3vw]" >x86</button></li>
+                                               <li class="pl-[0.5vw]" ><button class=" text-white rounded-sm bg-sky-700 text-xs px-[0.3vw]  " >Arm64</button></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="flex pt-[0.1vw]">
+                                               <li><button class=" text-white bg-sky-700 text-xs px-[0.3vw] rounded-sm ">x64</button></li>
+                                               <li class="pl-[0.5vw]" class="bg-sky-700  " ><button class=" text-white rounded-sm  px-[0.3vw] text-xs bg-sky-700" >x86</button></li>
+                                               <li  class="pl-[0.5vw]" class="bg-sky-700 " ><button class=" text-white rounded-sm px-[0.3vw] text-xs bg-sky-700" >Arm64</button></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="flex pt-[0.1vw]">
+                                               <li><button class=" text-white bg-sky-700 rounded-sm text-xs px-[0.3vw] ">x64</button></li>
+                                               <li class="pl-[0.5vw] " ><button class=" text-white rounded-sm bg-sky-700 text-xs px-[0.3vw] ">x86</button></li>
+                                               <li class="pl-[0.5vw]" ><button class=" text-white rounded-sm bg-sky-700 text-xs px-[0.3vw] " >Arm64</button></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="flex mt-[3vh]">
+                                               <li class=><button class=" text-white rounded-sm bg-sky-700 text-xs px-[0.3vw] " >x64</button></li>
+                                               <li class="pl-[0.5vw] " ><button class=" text-white rounded-sm bg-sky-700 text-xs px-[0.3vw] " >x86</button></li>
+                                               <li class="pl-[0.5vw]" ><button class=" text-white rounded-sm bg-sky-700 text-xs px-[0.3vw] " >Arm64</button></li>
+                                        </ul>
+                                    </li>
+                                   </ul>
+                      </li>
+              </ul>
+                </div>
+    </div>
+    
+       <div>
+        <div class="ml-[10vw] mt-[10vh]">
+            <p ><img class="h-[18vh] w-[9vw]" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTsLAkpPnFQV4U9M2kTugovSSCmGjGx3xtDsCVOHFFy4HEDEhE4" alt="" srcset=""></p>
+            </div>
+            <div class="flex">
+                <div class="ml-[5vw] mt-[3vh]">
+                    <button class="text-center bg-sky-700 py-[2vh] text-white px-[2.8vw] ">
+                        <p class="text-xl"><span class="material-icons ">arrow_downward</span><span class="ml-[1vw]">.deb</span></p>
+                        <p class="text-xs text-center mt-[1vh] font-semibold">Debian,Ubuntu</p>
+                    </button>
+                </div>
+                <div class="ml-[0.5vw] mt-[3vh]">
+                    <button class="text-center bg-sky-700 py-[2vh] text-white px-[1.8vw] ">
+                        <p class="text-xl"><span class="material-icons ">arrow_downward</span><span class="ml-[1vw]">.rpm</span></p>
+                        <p class="text-xs text-center mt-[1vh] font-semibold">RedHat, Fedora, SUSE</p>
+                    </button>
+                </div>
+            </div>
+            <div>
+                <ul class="ml-[8vw] mt-[4vh] flex">
+                       <li>
+                            <ul >
+                                <li class="pl-[3vw] font-semibold"> .deb</li>
+                                <li class="pl-[3vw] font-semibold">.rpm</li>
+                                <li class="pl-[3vw] font-semibold">.tar.gz</li>
+                                <li class="pl-[3vw] font-semibold">Snap</li>
+                                <li class="pl-[3vw] mt-[3vh] font-semibold">CLI</li>
+                            </ul>
+                      </li>
+                      <li>
+                                   <ul class="ml-[0.5vw]">
+                                    <li>
+                                        <ul class="flex">
+                                               <li ><button class="bg-sky-700 text-xs px-[0.3vw] text-white rounded-sm" >x64</button ></li>
+                                               <li class="pl-[0.5vw]"><button class=" text-white rounded-sm bg-sky-700 text-xs px-[0.3vw]" >x86</button></li>
+                                               <li class="pl-[0.5vw]" ><button class=" text-white rounded-sm bg-sky-700 text-xs px-[0.3vw]  " >Arm64</button></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="flex pt-[0.1vw]">
+                                               <li><button class=" text-white bg-sky-700 text-xs px-[0.2vw] rounded-sm ">x64</button></li>
+                                               <li class="pl-[0.5vw]" class="bg-sky-700  " ><button class=" text-white rounded-sm  px-[0.3vw] text-xs bg-sky-700" >x86</button></li>
+                                               <li  class="pl-[0.5vw]" class="bg-sky-700 " ><button class=" text-white rounded-sm px-[0.3vw] text-xs bg-sky-700" >Arm64</button></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="flex pt-[0.1vw]">
+                                               <li><button class=" text-white bg-sky-700 rounded-sm text-xs px-[0.3vw] ">x64</button></li>
+                                               <li class="pl-[0.5vw] " ><button class=" text-white rounded-sm bg-sky-700 text-xs px-[0.3vw] ">x86</button></li>
+                                               <li class="pl-[0.5vw]" ><button class=" text-white rounded-sm bg-sky-700 text-xs px-[0.3vw] " >Arm64</button></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li><button class=" text-white bg-sky-700 rounded-sm text-xs px-[0.3vw] ">Snap Store</button></li>
+
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="flex mt-[2vh]">
+                                               <li class=><button class=" text-white rounded-sm bg-sky-700 text-xs px-[0.3vw] " >x64</button></li>
+                                               <li class="pl-[0.5vw] " ><button class=" text-white rounded-sm bg-sky-700 text-xs px-[0.3vw] " >x86</button></li>
+                                               <li class="pl-[0.5vw]" ><button class=" text-white rounded-sm bg-sky-700 text-xs px-[0.3vw] " >Arm64</button></li>
+                                        </ul>
+                                    </li>
+                                   </ul>
+                      </li>
+              </ul>
+                </div>
+            
+       </div>     
+       
+       <div>
+        <div class="ml-[8vw] mt-[10vh]">
+            <p ><img class="h-[18vh] w-[13vw]" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSVC-dnLCfuGMX29mJxd-V3VMridf-dN5aUf-w9Rmnmp1pEXqir" alt="" srcset=""></p>
+            </div>
+            <div class="ml-[4vw] mt-[3vh]">
+                <button class="text-center bg-sky-700 py-[2vh] text-white px-[6.5vw] ">
+                    <p class="text-xl"><span class="material-icons ">arrow_downward</span><span class="ml-[1vw]">Mac</span></p>
+                    <p class="text-xs text-center mt-[1vh] font-semibold ">macOS 10.11+</p>
+                </button>
+            </div>
+            <div>
+                <ul class="ml-[2vw] mt-[4vh] flex">
+                       <li>
+                            <ul>
+                                <li class="pl-[2vw] font-semibold">.zip</li>
+                                <li class="pl-[2vw] mt-[1vh] font-semibold">CLI</li>
+                            </ul>
+                      </li>
+                      <li>
+                                   <ul class="ml-[1vw]">
+                                    <li>
+                                        <ul class="flex pt-[0vw]">
+                                               <li><button class=" text-white bg-sky-700 rounded-sm text-xs px-[0.3vw] ">Intel chip</button></li>
+                                               <li class="pl-[0.3vw] " ><button class=" text-white rounded-sm bg-sky-700 text-xs px-[0.3vw] ">Apple silicon</button></li>
+                                               <li class="pl-[0.3vw]" ><button class=" text-white rounded-sm bg-sky-700 text-xs px-[0.3vw] " >Universal</button></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="flex pt-[0.3vw] mt-[0.2vh]">
+                                            <li><button class=" text-white bg-sky-700 rounded-sm text-xs px-[0.3vw] ">Intel chip</button></li>
+                                            <li class="pl-[0.3vw] " ><button class=" text-white rounded-sm bg-sky-700 text-xs px-[0.3vw] ">Apple silicon</button></li>
+                                     </ul>
+                                    </li>
+                                   </ul>
+                      </li>
+              </ul>
+                </div>
+    </div> 
+</div>
+<div class="h-[80vh] w-full bg-slate-100 ">
+    <div class="flex justify-around mt-[10vh]">
+        <div>
+            <p class ="text-2xl">Want new features sooner?</p>
+            <p class="text-center text-lg pt-[2vh] ">Get the <span class="text-blue-600">Insiders build </span>instead.</p>
+        </div>
+        <div>
+            <p class="text-2xl">Use <span class="text-blue-600">vscode.dev </span> for quick edits</p>
+            <p class="text-center text-2xl">online! </p>
+            <p class="text-lg pt-[1.5vh]">GitHub, Azure Repos, and local files.</p>
+        </div>
+    </div>
+    <div class="mt-[15vh]">
+        <p class=" text-base text-center font-medium">License and Privacy Terms</p>
+        <p class="text-sm text-center mt-[4vh]">By downloading and using Visual Studio Code, you agree to the <span class="text-blue-500">  <a href="#"> license terms and privacy statement. </a></span>VS Code</p>
+        <p class="text-sm text-center mt-[4vh]">automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not</p>
+        <p class="text-sm text-center mt-[4vh]">to have this data sent please go see <span class="text-blue-500">  <a href="#"> How to Disable Crash Reporting</a></span>  to learn how to disable it.</p>
+    </div>
+</div>
+</div>
+<div class="bg-zinc-800 flex text-white justify-around">
+    <div class="flex py-[5vh]">
+        <p class="pl-[3vw] pt-[0.7vh] ">Hello from Seattle.</p>
+        <p class="pl-[3vw] pt-[0.7vh]">Follow @code</p>
+        <p class="pl-[3vw] pt-[1.5vh] text-xs"><button class=" rounded-sm bg-white px-[0.3vw] py-[0.3vh] text-black">Star</button></p>
+        <p class=" lb_button pt-[0.8vh] "><button class= " rounded-sm bg-white  text-black text-xs px-[0.3vw] py-[0.05vw] ">146,326</button></p>
+    </div>
+    <div>
+        <ul class="flex py-[5vh] pl-[22vw]">
+            <li class="pl-[2vw]">Support</li>
+            <li class="pl-[2vw]">Privacy</li>
+            <li class="pl-[2vw]" >Terms of use</li>
+            <li class="pl-[2vw]" >License</li>
+            <li class="pl-[2vw]  flex flex-col justify-center">
+                    <p class="w-[8vw] h-[8vh]  block " ><img class =""src="https://code.visualstudio.com/assets/images/microsoft-logo.png" alt="" srcset=""></p>
+                    <p class="relative bottom-6 text-sm">@ 2023 Microsoft</p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
