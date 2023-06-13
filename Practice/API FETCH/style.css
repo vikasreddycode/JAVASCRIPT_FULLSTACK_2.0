@@ -1,0 +1,16 @@
+body
+{
+    box-sizing: border-box;
+    margin: auto;
+    overflow: hidden;
+    min-width: 1300px;
+    min-height: 560px;
+    /* background-color: blue; */
+}
+.container
+{
+    /* display: flex; */
+    height:565px;
+    width:1276px;
+    border: 1px solid blue;
+}
